@@ -1,0 +1,51 @@
+body, html {
+    font-family: 'Quicksand',
+    sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display',
+        serif;
+}
+
+body {
+    background: #F6F2EE;
+}
+
+.container {
+    padding: 60px 10px;
+}
+
+.txt-c {
+    text-align: center;
+}
+
+.form {
+    position: relative;
+    z-index: 2;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#form-embed {
+    width: 100%;
+    min-height: 1300px;
+}
+
+#tc {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+
+#shape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25vw;
+    height: auto;
+}
